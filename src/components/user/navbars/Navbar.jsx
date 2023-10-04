@@ -15,7 +15,7 @@ const Navbar = () => {
           delay: 0.3,
         }}
       >
-        <div className="flex flex-row w-screen h-16 uppercase text-xs items-center bg-slate-100 font-semibold">
+        <div className="flex flex-row w-full h-16 uppercase text-xs items-center bg-slate-100 font-semibold">
           <div className="flex h-full w-4/12 gap-2 md:gap-10 justify-center items-center">
             <Link to="/interiors">
               <h1 className="text-black hover:text-red-500 hover:-translate-y-1 duration-300">interiors</h1>

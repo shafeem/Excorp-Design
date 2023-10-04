@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/user/navbars/Navbar";
 import Navigation from "../components/user/navbars/Navigation";
 import { useMediaQuery } from "react-responsive";
+import FirstSection from "../pages/FirstSection";
 
 const UserRoutes = () => {
   let isMobile = useMediaQuery({ query: "(max-width: 500px)" });
@@ -12,10 +13,11 @@ const UserRoutes = () => {
           <Navigation />
         </div>
       ) : (
-        <div className="relative w-screen h-fit">
+        <div className="relative w-full h-fit">
           <Navbar />
         </div>
       )}
+      <FirstSection/>
     </>
   );
 };
