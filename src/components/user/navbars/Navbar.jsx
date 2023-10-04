@@ -16,22 +16,22 @@ const Navbar = () => {
         }}
       >
         <div className="flex flex-row w-screen h-16 uppercase text-xs items-center bg-slate-100 font-semibold">
-          <div className="flex h-full w-3/12 gap-10 justify-center items-center">
+          <div className="flex h-full w-4/12 gap-2 md:gap-10 justify-center items-center">
             <Link to="/interiors">
-              <h1 className="text-black hover:text-red-500 hover:translate-y-2 duration-300">interiors</h1>
+              <h1 className="text-black hover:text-red-500 hover:-translate-y-1 duration-300">interiors</h1>
             </Link>
             <Link to="/design">
-              <h1 className="text-black hover:text-red-500 hover:translate-y-2 duration-300">design</h1>
+              <h1 className="text-black hover:text-red-500 hover:-translate-y-1 duration-300">design</h1>
             </Link>
           </div>
 
-          <div className="flex h-full  w-6/12 justify-center items-center">
+          <div className="flex h-full  w-5/12 justify-center items-center">
             Logo and design
           </div>
 
           <div className="flex h-full  w-3/12 justify-center items-center">
             <Link to="/about">
-              <h1 className="text-black hover:text-red-500 hover:translate-y-2 duration-300">about+</h1>
+              <h1 className="text-black hover:text-red-500 hover:-translate-y-1 duration-300">about+</h1>
             </Link>
           </div>
         </div>
